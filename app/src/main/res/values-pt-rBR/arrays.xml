@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sectors">
+        <item>Açougue</item>
+        <item>Adega</item>
+        <item>Bazar</item>
+        <item>Bebidas</item>
+        <item>Flores e Plantas</item>
+        <item>Frios e Laticínios</item>
+        <item>Higiene e Limpeza</item>
+        <item>Hortifruti</item>
+        <item>Leve + Vida</item>
+        <item>Mercearia</item>
+        <item>Padaria e Confeitaria</item>
+    </array>
+</resources>

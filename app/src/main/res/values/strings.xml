@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name" translatable="false">Tô No Mercado</string>
+    <string name="app_version" translatable="false">1.0.0</string>
+    <string name="sair">Go out</string>
+    <string name="carregando">Loading</string>
+    <string name="erroLoading">Loading error</string>
+    <string name="name">Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="description">Description</string>
+    <string name="brand">Brand</string>
+    <string name="department">Department</string>
+    <string name="btnSave">Save</string>
+    <string name="btnRemove">Remove</string>
+    <string name="registerProduct">Register Product</string>
+    <string name="errorList">List Error</string>
+    <string name="errorPage">Error</string>
+    <string name="about">About</string>
+    <string name="list">List</string>
+    <string name="userName">user</string>
+    <string name="password">password</string>
+    <string name="registerUser">User Registration</string>
+    <string name="errorLoginMsg">User or email invalid</string>
+    <string name="stayLogged">Stay logged</string>
+    <string name="login">Login</string>
+    <string name="newUser">New User</string>
+    <string name="emptyFilds">Fill in all fields</string>
+    <string name="registrationSuccessfully">Registration successfully</string>
+    <string name="qtdOnlyNumbers">Quantity field only numbers</string>
+    <string name="btnSearch">Search</string>
+</resources>

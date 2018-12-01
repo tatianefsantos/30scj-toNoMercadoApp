@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sectors">
+        <item>Butchery</item>
+        <item>Wine House</item>
+        <item>Bazaar</item>
+        <item>Drinks</item>
+        <item>Flowers and Plants</item>
+        <item>Refrigeration and Air Conditioning</item>
+        <item>Hygiene and cleaning</item>
+        <item>Hortifruti</item>
+        <item>Light + Life</item>
+        <item>Grocery store</item>
+        <item>Bakery and confectionery</item>
+    </array>
+</resources>

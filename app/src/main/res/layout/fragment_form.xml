@@ -1,0 +1,109 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/main_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" android:layout_marginTop="1dp">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/registerProduct"
+             android:textColor="@color/colorAccent"
+             android:textSize="25dp"
+             android:textStyle="bold"
+              />
+
+         <android.support.design.widget.TextInputLayout
+             android:id="@+id/inputNome"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <EditText
+                 android:hint="@string/name"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+             android:id="@+id/inputDescricao"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <EditText
+                 android:hint="@string/description"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+             android:id="@+id/inputMarca"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <EditText
+                 android:hint="@string/brand"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+             android:id="@+id/inputQuantidade"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <EditText
+                 android:hint="@string/quantity"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp">
+         <Spinner
+             android:id="@+id/inputSetor"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:spinnerMode="dropdown"/>
+         </android.support.design.widget.TextInputLayout>
+
+         <LinearLayout android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_gravity="bottom">
+
+             <Button
+                 android:id="@+id/btnDelete"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:text="@string/btnRemove" />
+
+             <Button
+                 android:id="@+id/btnSalvar"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:text="@string/btnSave" />
+
+         </LinearLayout>
+     </LinearLayout>
+
+ </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

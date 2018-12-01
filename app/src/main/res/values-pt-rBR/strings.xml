@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sair">Sair</string>
+    <string name="carregando">Carregando</string>
+    <string name="erroLoading">Erro ao carregar</string>
+    <string name="name">Nome</string>
+    <string name="quantity">Quantidade</string>
+    <string name="description">Descrição</string>
+    <string name="brand">Marca</string>
+    <string name="department">Departamento</string>
+    <string name="btnSave">Salvar</string>
+    <string name="btnRemove">Remover</string>
+    <string name="registerProduct">Cadastrar Produto</string>
+    <string name="errorList">Erro lista</string>
+    <string name="errorPage">Erro</string>
+    <string name="about">Sobre</string>
+    <string name="list">Listar</string>
+    <string name="userName">usuário</string>
+    <string name="password">senha</string>
+    <string name="registerUser">Cadastrar Usuário</string>
+    <string name="errorLoginMsg">Usuário ou senha incorretos</string>
+    <string name="stayLogged">Manter logado</string>
+    <string name="login">Entrar</string>
+    <string name="newUser">Novo Usuário</string>
+    <string name="emptyFilds">Preencher todos os campos</string>
+    <string name="registrationSuccessfully">Cadastrado com sucesso</string>
+    <string name="qtdOnlyNumbers">Quantidade somente números</string>
+    <string name="btnSearch">Pesquisar</string>
+</resources>
